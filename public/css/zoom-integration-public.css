@@ -1,0 +1,133 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ *//*
+ .btn{
+    background-color:white;
+    border-color: 1px solid;
+    color: black;
+  }
+  .row .frm{
+    background-color: white;
+    box-shadow: -10px 10px 4px rgba(0,0,0,0.1);
+    border-radius: 15px 15px 15px 15px;
+    transition: .2s;
+  }
+  .row .frm:hover{
+    transform: scale(1.05);
+  }
+  .row-date{
+    background: white;
+    border-radius: 15px 15px 15px 15px; 
+    box-shadow: -10px 10px 4px rgba(0,0,0,0.1);
+    margin-bottom: 3%;
+  }
+  .row-date .label{
+    color:black;
+    font-weight:bold;
+  }
+  .first-meeting-column{
+    margin-bottom: 0.5%;
+  }
+  .second-meeting-column{
+    margin-bottom: 0.5%;
+  }
+  .first-meeting-column .btn {background:white;}
+  .first-meeting-column .btn {
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid;
+    }
+  .first-meeting-column .btn:hover {
+    background-position: right center; /* change the direction of the change here *//*
+    color: #fff;
+    text-decoration: none;
+      }       
+  .second-meeting-column .btn {background:white;}
+  .second-meeting-column .btn {
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid;
+    }
+  .second-meeting-column .btn:hover {
+    background-position: right center; /* change the direction of the change here *//*
+    color: #fff;
+    text-decoration: none;
+      }
+  
+  .label-date{
+    color: white;
+    font-size:large;
+    font-weight:normal;
+  }
+   .label-title-meeting{
+       font-size:medium;
+       font-weight:bold;
+       color: black;
+   }
+   .label-body-meeting{
+       font-size:small;
+       font-weight:bold;
+   }
+   .button-container{
+       margin-top: 5%;
+   }
+   .inst-meeting-label{
+    font-weight:bold;
+    color: black;
+   }
+   .new-meeting-label{
+    font-weight:bold;
+    color: black;
+   }
+   .start {
+     text-transform: uppercase;
+     font-weight:bold;
+     color: #00BFFF;
+     font-size: medium;
+     background-color:white;
+     margin-top:5%;
+     
+   }
+   .edit {
+    text-transform: uppercase;
+    font-weight:bold;
+     color: #A9A9A9;
+     font-size: small;
+     background-color: white;
+   }
+   .remove {
+     text-transform: uppercase;
+     font-weight:bold;
+     color: #8B0000;
+     font-size: medium;
+     background-color: white;
+     margin-top:5%;
+   }
+   .lbl-topic{
+     font-size: medium;
+   }
+   .txt-modal{
+     font-size: 12px;
+     height: 26px;
+     border-radius: 5px;
+   }
+   .modal {
+    color: black
+   }
