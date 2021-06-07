@@ -27,12 +27,12 @@ echo"</pre>";*/
 
 ?>
 <div class='row row-date'>
-    <label class='label label-date'><h2 class='label label-date' >Recordings</h2></label>
+    <label class='label label-date'><h2 class='label label-date' >Recordings for your meetings</h2></label>
 </div>
 <?php
-print_recordings($meetings); 
+print_recordings($meetings);
 ?>
 <style>
 
-   
+
 </style>
