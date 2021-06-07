@@ -1,0 +1,289 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+p{
+  text-align: justify;
+}
+
+ .btn{
+    background-color:white;
+    border-color: 1px solid;
+    color: black;
+  }
+  .row .frm{
+    background-color: white;
+    box-shadow: -10px 10px 4px rgba(0,0,0,0.1);
+    border-radius: 15px 15px 15px 15px;
+    transition: .2s;
+  }
+  .row .frm:hover{
+    transform: scale(1.05);
+  }
+  .row-date{
+    background: white;
+    border-radius: 15px 15px 15px 15px; 
+    box-shadow: -10px 10px 4px rgba(0,0,0,0.1);
+    margin-bottom: 3%;
+  }
+  .row-date .label{
+    color:black;
+    font-weight:bold;
+  }
+  .first-meeting-column{
+    margin-bottom: 0.5%;
+  }
+  .second-meeting-column{
+    margin-bottom: 0.5%;
+  }
+  .first-meeting-column .btn {background:white;}
+  .first-meeting-column .btn {
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid;
+    }
+  .first-meeting-column .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+      }       
+  .second-meeting-column .btn {background:white;}
+  .second-meeting-column .btn {
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid;
+    }
+  .second-meeting-column .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+      }
+  
+  .label-date{
+    color: white;
+    font-size:large;
+    font-weight:normal;
+  }
+   .label-title-meeting{
+       font-size:medium;
+       font-weight:bold;
+       color: black;
+   }
+   .label-body-meeting{
+       font-size:small;
+       font-weight:bold;
+   }
+   .button-container{
+       margin-top: 5%;
+   }
+   .inst-meeting-label{
+    font-weight:bold;
+    color: black;
+   }
+   .new-meeting-label{
+    font-weight:bold;
+    color: black;
+   }
+   .start {
+     text-transform: uppercase;
+     font-weight:bold;
+     color: #00BFFF;
+     font-size: medium;
+     background-color:white;
+     margin-top:5%;
+     
+   }
+   .edit {
+    text-transform: uppercase;
+    font-weight:bold;
+     color: #A9A9A9;
+     font-size: small;
+     background-color: white;
+   }
+   .remove {
+     text-transform: uppercase;
+     font-weight:bold;
+     color: #8B0000;
+     font-size: medium;
+     background-color: white;
+     margin-top:5%;
+   }
+   .lbl-topic{
+     font-size: medium;
+   }
+   .txt-modal{
+     font-size: 12px;
+     height: 26px;
+     border-radius: 5px;
+   }
+   .modal {
+    color: black
+   }
+
+
+
+
+
+   .btn{
+    background-color:white;
+    border-color: 1px solid;
+    color: black;
+  }
+  .row-settings{
+    background-image: white;
+    border-radius: 15px 15px 15px 15px; 
+    box-shadow: -10px 10px 4px rgba(0,0,0,0.1);
+    margin-bottom: 3%;
+    color:black;
+  }
+  .label{
+    color:black;
+    font-size: 1.2rem;
+    font-weight:bold;
+    
+  }
+  .label-topic{
+      font-weight: normal;
+      font-size: 1.5rem;
+      color:black;
+      
+    }
+  .label-son{
+      font-weight: normal;
+      font-size: small;
+      color:#909090;
+    }
+  .material-switch > input[type="checkbox"] {
+      display: none;  
+      background-color: #00BFFF; 
+  }
+  
+  .material-switch > label {
+      cursor: pointer;
+      height: 0px;
+      position: relative; 
+      width: 40px;  
+      background-color: #00BFFF;
+      
+  }
+  
+  .material-switch > label::before {
+    
+      background: rgb(14, 113, 235);
+      box-shadow: inset 0px 0px 10px rgba(7, 48, 231, 0.5);
+      border-radius: 8px;
+      content: '';
+      height: 16px;
+      margin-top: -8px;
+      position:absolute;
+      opacity: 0.3;
+      transition: all 0.4s ease-in-out;
+      width: 40px;
+  }
+  .material-switch > label::after {
+      background: rgb(255, 255, 255);
+      
+      border-radius: 16px;
+      box-shadow: 0px 0px 5px rgba(12, 27, 241, 0.3);
+      content: '';
+      height: 24px;
+      left: -4px;
+      margin-top: -8px;
+      position: absolute;
+      top: -4px;
+      transition: all 0.3s ease-in-out;
+      width: 24px;
+  }
+  .material-switch > input[type="checkbox"]:checked + label::before {
+      background: inherit;
+      opacity: 0.5;
+     
+  }
+  .material-switch > input[type="checkbox"]:checked + label::after {
+      background: inherit;
+      left: 20px;
+      
+  }
+
+
+
+  .container-icon{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: thin black solid;
+    height: 65px;
+    background-color: #1d1d1b ;
+}
+.topic-recording{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;        
+}
+.label-date{
+color: black;
+font-size:large;
+font-weight:bold;
+}
+.container-recording{
+background-color: white;
+box-shadow: -10px 10px 4px rgba(0,0,0,0.1);
+border-radius: 15px 15px 15px 15px;
+transition: .2s;
+margin-bottom: 5%;
+}
+.container-recording:hover{
+transform: scale(1.05);
+}
+.second-recording{
+    font-weight: normal;
+    color: black;        
+}
+.btn-primary{
+    background-color:white;
+    color: black;
+    border: 1px black solid;
+    margin-top: 10%;
+    font-size: 12px;
+    font-weight: normal;
+    border-radius: 25px;
+}
+.btn-warning{
+  background-color:white;
+  color: black;
+  border: 1px black solid;
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 25px;
+}
+.btn-warning :hover{
+  background-color: rgb(8, 143, 253);
+}
+.img-play{
+    height: 60px;
+    width:60px;
+}
+.row-date{
+background:white;
+font-weight:bold;
+border-radius: 15px 15px 15px 15px; 
+box-shadow: -10px 10px 4px rgba(0,0,0,0.1);
+margin-bottom: 3%;
+
+}
